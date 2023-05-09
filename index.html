@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머 구현</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="timer-section">
+      <img class="main-logo" src="img/weniv-logo.png" alt="위니브 로고" />
+      <article class="timer">
+        <header class="timer-header">
+          <h1 class="timer-title">TIMER</h1>
+        </header>
+        <section class="timer-contents">
+          <div class="timer-contents-title">
+            <span>HRS</span>
+            <span>MIN</span>
+            <span>SEC</span>
+          </div>
+          <div class="timer-contents-value">
+            <div class="hours">00</div>
+            <div class="division">
+              <span></span>
+              <span></span>
+            </div>
+            <div class="minutes">00</div>
+            <div class="division">
+              <span></span>
+              <span></span>
+            </div>
+            <div class="seconds">00</div>
+          </div>
+        </section>
+        <button type="button" class="start-btn">START</button>
+        <button type="button" class="reset-btn">RESET</button>
+      </article>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>

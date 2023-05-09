@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+h1 {
+  margin: 0;
+  font-family: 'Pretendard-Regular';
+  /* background: linear-gradient(to right #f0f4ff, #a5b6ee); */
+  /* background-color: #a5b6ee; */
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0;
+  padding: 13px 20px;
+  border-radius: 50px;
+}
+
+.timer-section {
+  padding: 72px 0 103px;
+  text-align: center;
+  background-color: #a5b6ee;
+  height: calc(100vh - 175px);
+}
+
+.main-logo {
+  margin-bottom: 60px;
+}
+
+.timer {
+  width: 400px;
+  /* background: linear-gradient(to right #5572bb, #374b7c); */
+  background-color: #5572bb;
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  margin: 0 auto;
+  padding: 44px;
+  box-sizing: border-box;
+}
+
+.timer-header {
+  border-bottom: 1px solid #3d538a;
+  padding-bottom: 23px;
+}
+
+.timer-title {
+  color: #fff;
+}
+
+.timer-contents {
+  margin: 33px 0 56px;
+}
+
+.timer-contents-title {
+  color: #a5b6ee;
+  margin-bottom: 4px;
+}
+
+.timer-contents-title span:nth-child(2) {
+  margin: 0 70px;
+}
+
+.timer-contents-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours,
+.minutes,
+.seconds {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #354971;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #354971;
+}
+
+.division {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px;
+}
+
+.division span {
+  width: 6px;
+  height: 6px;
+  background-color: #8198d0;
+  border-radius: 50%;
+}
+
+.division span + span {
+  margin-top: 14px;
+}
+
+.start-btn {
+  margin-right: 12px;
+  background-color: #5180ff;
+  color: #fff;
+}
+
+.reset-btn {
+  background-color: #fb7099;
+  color: #fff;
+}
+
+.start-btn.pause {
+  background-color: #15c2b8;
+}
